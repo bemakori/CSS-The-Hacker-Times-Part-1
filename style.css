@@ -1,1 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    background-color: rgba(238, 238, 238, 0.973);
+    font-family:'Source Sans Pro';
+}
+.date {
+    font-family:'Source Sans Pro';
+    font-weight: 300;
+    font-size: 14px;
+    padding: 1em;
+}
+
+nav {
+    color: #777;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: .5em;
+    position:sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0em 0.5em ;
+    font-size: 13px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0.25em;
+    
+}
+a {
+    text-decoration: none;
+    color: #777;
+}
+.newspaper-container {
+    background-color: white;
+    margin: auto;
+    width: 700px;
+    border-radius: 12px;
+
+}
+
+header h1 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 40px;
+}
+
+main h2 {
+    font-family: 'Roboto Slab';
+    margin: 0.5em;
+}
+main h5 {
+    font-family: 'Abril Fatface';
+    color: crimson;
+    font-weight:400;
+    margin: 1em;
+}
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 96%;
+}
+
+main p {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    text-align: justify;
+    border-bottom: 1px lightgrey solid;
+    margin: auto;
+    width: 94%;
+    padding: 10px;
+    font-size: .95em;
+
+}
+
+li {
+    display: inline-block;
+}
+.more-articles section {
+    display: inline-block;
+    width: 45%;
+    margin: 0.5em; 
+}
+
+.more-articles section h4 {
+    font-family:'Abril Fatface';
+    font-weight: 100;
+    font-size: 1.1em;
+    margin: 1em;
+    padding-left: .5em;
+
+}
+.more-articles section img {
+    align-content: center;
+    padding-left: 1.2em;
+}
+
+.more-articles section p {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    text-align: justify;
+    margin: auto;
+    width: 85%;
+    padding: 1em 2em 2em 2em;
+    font-size: .95em;
+    position: relative;
+    left:0;
+    
+}
